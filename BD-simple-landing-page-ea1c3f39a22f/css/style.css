@@ -9197,6 +9197,10 @@ button.bg-dark:focus {
 .text-right {
   text-align: right !important;
 }
+.logo {
+  width: 150px; /* Adjust this value to control the logo width */
+  height: auto; /* This keeps the aspect ratio of the logo */
+}
 
 .text-center {
   text-align: center !important;
@@ -9703,11 +9707,12 @@ body.sidebar-open::before {
 
 .contact-details .mdi {
   font-size: 14px;
+  align-items: center;
   color: #6e6e6e;
   border-radius: 50px;
   border: 1px solid rgba(151, 151, 151, 0.24);
   padding: 3px 6px;
-  margin-right: 10px;
+  margin-right: 5px;
   transition: all 0.6s ease-in-out;
 }
 
